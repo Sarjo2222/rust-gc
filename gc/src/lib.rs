@@ -1,4 +1,4 @@
-#![feature(std_misc, optin_builtin_traits, core)]
+#![feature(std_misc, optin_builtin_traits, core, unsize, coerce_unsized, borrow_state)]
 
 use std::cell::{self, Cell, RefCell, BorrowState};
 use std::ops::{Deref, DerefMut, CoerceUnsized};
